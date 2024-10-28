@@ -2,6 +2,7 @@ import './App.css'
 // import Navbar from './components/DaisyNav/Navbar';
 import MyNav from './components/DaisyNav/MyNav';
 import PriceOptions from './components/PriceOptions/PriceOptions';
+import LineCharts from './components/LineChart/LineCharts';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <MyNav></MyNav>
       {/* <Navbar></Navbar> */}
       <PriceOptions></PriceOptions>
+      <LineCharts></LineCharts>
 
 
     </>
